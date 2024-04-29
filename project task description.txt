@@ -1,0 +1,106 @@
+#Mention id or email id : SRINIVAS GALI
+
+#Task Tittle : OTT PLATFORM WEBSITE CLONE
+
+#Task Description : This HTML code represents a web page designed to mimic the layout and functionality of the Disney+ streaming service. Here's a breakdown of its components:
+
+					Header (Navbar):
+					Contains a navigation bar with links to different sections like TV shows, movies, sports, and premium content.
+					Includes a search box, a subscribe button, and a login link.
+					Carousel Container:
+					Displays a carousel of featured content, with a slide for a specific movie or TV show (in this case, "Loki").
+					Each slide includes a title and description.
+					Video Card Container:
+					Presents a grid layout of video cards, each representing a different category or genre (e.g., Disney, Pixar, Marvel).
+					Each video card contains an image and a video loop related to the category.
+					Recommended Movies Section:
+					Lists recommended movies for the user.
+					Each movie is displayed in a card format with an image, title, brief description, and an option to add it to the watchlist.
+					Popular Shows Section:
+					Similar to the recommended movies section but displays popular TV shows.
+					Shows are presented in card format with images, titles, descriptions, and watchlist buttons.
+					New Releases Section:
+					Features newly released content.
+					Movies are presented in card format with images, titles, descriptions, and watchlist buttons.
+					JavaScript Files:
+					Includes references to external JavaScript files (data.js and app.js) for dynamic content or interactivity.
+					Overall, this HTML code creates a visually appealing and functional web page resembling the layout of the Disney+ streaming service, allowing users to explore and interact with various movies and TV shows.
+
+					This CSS code defines the styling for the HTML structure provided earlier, which emulates the layout and design of the Disney+ streaming service. Here's a breakdown of the styles:
+
+					1.Global Reset:
+					  Resets margin, padding, and box-sizing for all elements to ensure consistent layout across different browsers.
+					2.Body Styling:
+					  Sets the background color to a dark shade (#0c111b) and defines the font family as Roboto or sans-serif.
+					3.Navbar Styling:
+					  Styles the navigation bar with a fixed position at the top of the page, utilizing a dark background color.
+					  Aligns the brand logo, navigation links, search box, subscribe button, and login link within the navbar.
+					4.Carousel Styling:
+					  Sets up the carousel container with specific dimensions and positioning.
+					  Defines styles for individual slides within the carousel, including background, border radius, and transitions.
+					5.Video Card Styling:
+					  Arranges video cards in a flex container, ensuring space between each card.
+					  Specifies the appearance of each video card, including dimensions, border radius, and overflow behavior.
+					  Defines styles for video card images and videos, ensuring they cover the designated area.
+					6.Title and List Styling:
+					  Styles section titles with uppercase text, specific font sizes, and colors.
+					  Defines the appearance of movie lists, including dimensions, positioning, and scroll behavior.
+					7.Card Styling:
+					  Sets up individual movie cards with specific dimensions, border radius, and overflow behavior.
+					  Defines styles for card images, card bodies (containing movie details), and watchlist buttons.
+					  Specifies hover effects for cards, including scaling and opacity transitions.
+					8.Navigation Buttons Styling:
+					  Defines styles for previous and next buttons used for scrolling through movie lists.
+					  Specifies button appearance, positioning, background gradients, and hover effects.
+					  Overall, this CSS code creates a visually appealing and responsive layout for the Disney+ clone, with carefully designed elements such as the navbar, carousel, video cards, and movie lists, ensuring a cohesive and immersive user experience.
+
+					This JavaScript code enhances the functionality of the Disney+ clone webpage by adding dynamic features such as carousel sliding, video playback on hover, and scrolling functionality for card containers. Here's a breakdown of its functionality:
+
+					1.Carousel Slider:
+					  The createSlide function creates slides dynamically by fetching movie information from the movies array.
+					  It creates DOM elements for each slide, including an image and content (title and description).
+					  The function sets up the image source and class names for styling.
+					  Slides are appended to the carousel container, and their positions are adjusted based on the slide index.
+					  The setInterval function periodically calls createSlide to create a sliding effect.
+					2.Video Cards:
+					  Event listeners are added to each video card to play and pause videos on hover.
+					  When a user hovers over a video card, the associated video starts playing, and it pauses when the user moves the cursor away.
+					3.Card Sliders:
+					  Event listeners are added to the previous and next buttons of each card container.
+					  When clicked, these buttons scroll the card container horizontally, allowing users to navigate through a collection of cards.
+					  Overall, this JavaScript code adds interactive elements to the Disney+ clone, enhancing user engagement and providing a more immersive browsing experience. Users can now enjoy automatic sliding of content in the carousel, preview videos on hover, and navigate through card collections with ease.
+
+					This JavaScript code defines an array named movies, which contains objects representing different movies. Each movie object has the following properties:
+
+					1.name: The title of the movie.
+					2.des: A brief description or summary of the movie.
+					3.image: The file path to the image associated with the movie.
+					  Here's a breakdown of the movies included in the array:
+
+					1."Falcon and the Winter Soldier":
+					   A description of the Marvel series "Falcon and the Winter Soldier."
+					   Associated image: 'images/slider 2.PNG'.
+					2."Loki":
+					   A description of the Marvel series "Loki."
+					   Associated image: 'images/slider 1.PNG'.
+					3."Wanda Vision":
+					   A description of the Marvel series "Wanda Vision."
+					   Associated image: 'images/slider 3.PNG'.
+					4."Raya and the Last Dragon":
+					   A description of the Disney animated movie "Raya and the Last Dragon."
+					   Associated image: 'images/slider 4.PNG'.
+					5."Luca":
+					   A description of the Disney animated movie "Luca."
+					   Associated image: 'images/slider 5.PNG'.
+					   This array serves as a data source for populating the carousel slider in the web page, providing titles, descriptions, and images for each movie displayed.
+	
+
+
+
+#Challenges Faced : 
+
+#Solutions Implemented :
+
+#Learnings :
+
+#project Update :Completed.
